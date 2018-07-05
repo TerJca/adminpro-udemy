@@ -15,14 +15,10 @@ export class IncrementadorComponent implements OnInit {
 
   constructor()
   {
-    console.log('Leyenda', this.leyenda);
-    console.log('Progreso', this.progreso);
   }
 
   ngOnInit()
   {
-    console.log('Leyenda', this.leyenda);
-    console.log('Progreso', this.progreso);
   }
 
   onChanges(newValue: number)

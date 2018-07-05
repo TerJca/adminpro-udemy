@@ -13,12 +13,10 @@ export class GraficoDonaComponent implements OnInit {
 
   constructor()
   {
-    console.log(this.data);
   }
 
   ngOnInit()
   {
-    console.log(this.data);
   }
 
 }
