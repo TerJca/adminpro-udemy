@@ -4,6 +4,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 // ng2-charts
 import { ChartsModule } from 'ng2-charts';
@@ -26,6 +27,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 // Routes
 import { PAGES_ROUTES } from './pages.routes';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
 @NgModule({
@@ -39,7 +41,9 @@ import { PAGES_ROUTES } from './pages.routes';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,
